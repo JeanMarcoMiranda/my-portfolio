@@ -54,28 +54,28 @@ const HeaderComponent: React.FC = () => {
         <AppBar position='relative'>
             <Toolbar className={classes.toolBarStyle}>
                 <Container className={classes.containerStyle} maxWidth='md'>
-                    <NavLink exact to='/'>
+                    <NavLink exact to='/my-portfolio/'>
                         <Typography variant="h4" color="inherit" noWrap>
                             Jean Marco
                         </Typography>
                     </NavLink>
                     <Divider  className={classes.dividerColor} orientation='vertical' flexItem />
                     
-                    <NavLink to='/profile'>
+                    <NavLink to='/my-portfolio/profile'>
                         <Typography variant="h6" color="inherit" noWrap>
                             Perfil Porfesional
                         </Typography>
                     </NavLink>
                     <Divider  className={classes.dividerColor} orientation='vertical' flexItem />
                     
-                    <NavLink to='/projects'>
+                    <NavLink to='/my-portfolio/projects'>
                         <Typography variant="h6" color="inherit" noWrap>
                             Proyectos
                         </Typography>
                     </NavLink>
                     <Divider  className={classes.dividerColor} orientation='vertical' flexItem />
                     
-                    <NavLink to='/news'>
+                    <NavLink to='/my-portfolio/news'>
                         <Typography variant="h6" color="inherit" noWrap>
                             Noticias
                         </Typography>

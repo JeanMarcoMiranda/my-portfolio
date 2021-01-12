@@ -2,7 +2,6 @@ import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
 import { Typography, Container, Grid, Button } from '@material-ui/core'
 import Banner from '../assets/heroImg.jpg'
-import { Height } from '@material-ui/icons';
 
 const useStyles = makeStyles(theme => ({
     heroContent: {

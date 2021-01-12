@@ -19,17 +19,17 @@ function App() {
         <Switch>
           <Route
             exact
-            path='/'
+            path='/my-portfolio/'
             component={Home}
           />
           <Route
-            path='/profile'
+            path='/my-portfolio/profile'
             component={Profile}
           />
 
           <Route
             exact
-            path='/projects'
+            path='/my-portfolio/projects'
             component={Projects}
           />
         </Switch>
