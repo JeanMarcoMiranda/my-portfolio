@@ -225,15 +225,14 @@ const ProfileComponent: React.FC = () => {
                             </ul>
                             <Grid container direction='column' spacing={4} alignItems='center'>
                                 <Grid item>
-                                    <a 
-                                        href='#'
+                                    <div 
                                         className={classes.anchorButton} 
                                         style={{backgroundColor: '#F2BF5E'}}
                                     >
                                         <AssignmentOutlined style={{fill: "white"}}/>
                                         <Divider variant='middle' orientation='vertical' flexItem />
                                         Curriculum Vitae
-                                    </a>
+                                    </div>
                                 </Grid>
                                 <Grid item>
                                     <a 
