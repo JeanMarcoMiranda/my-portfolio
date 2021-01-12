@@ -24,7 +24,7 @@ const ProjectsPage: React.FC = () => {
 
     return(
         <div className={classes.projectsContent}>
-            <Typography variant="h2" color="textPrimary" component="p" align='center' style={{marginBottom: 20}}>
+            <Typography variant="h2" color="textPrimary" component="p" align='center' style={{marginBottom: 20, textDecoration: 'underline'}}>
                 Proyectos
             </Typography>
             <Container maxWidth='md'>
@@ -36,7 +36,7 @@ const ProjectsPage: React.FC = () => {
                                 component="img"
                                 width="35%"
                                 alt="Mapa geolozalizable"
-                                image="https://lh3.googleusercontent.com/proxy/Ek_hu-iiICR3nAzYQdH6-p9w6aAqw3LmwgNMYnXd4jrOnpo70gQ6ZCjcZ6WU9MQMZxe0S1tV7cZzasaZQ0-FVj-wmCa_DJRTXklsUAZvEDZn7dNhP1gH"
+                                image="https://upload.wikimedia.org/wikipedia/commons/e/e1/Logo_Petroperu_vertical_negativo.jpg"
                             />
                             <CardContent>
                                 <Typography gutterBottom variant="h5" component="h2">

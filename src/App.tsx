@@ -11,6 +11,7 @@ import Layout from './containers/Layout'
 import Home from './containers/Home'
 import Profile from './containers/Profile'
 import Projects from './containers/Projects'
+import News from './containers/News'
 
 function App() {
   return (
@@ -31,6 +32,12 @@ function App() {
             exact
             path='/my-portfolio/projects'
             component={Projects}
+          />
+
+          <Route
+            exact
+            path='/my-portfolio/news'
+            component={News}
           />
         </Switch>
       </Layout>

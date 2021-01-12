@@ -8,13 +8,15 @@ import {
     AssignmentOutlined,
     YouTube
 } from '@material-ui/icons'
+import programmingImg from '../assets/heroImg2.jpg'
 
 
 const useStyles = makeStyles(theme => ({
     profileDescription: {
         backgroundColor: theme.palette.background.paper,
         padding: theme.spacing(8, 0, 6),
-        backgroundImage: `url(${"../assets/heroImg.jpg"})`
+        backgroundImage: `url(${programmingImg})`,
+        backgroundSize: 'cover'
     },
 
     profileContent: {
@@ -69,11 +71,11 @@ const ProfileComponent: React.FC = () => {
     return (
         <>
             <div className={classes.profileDescription}>
-                <Container maxWidth="sm">
-                    <Typography component="h2" variant="h3" align="center" color="textPrimary" gutterBottom>
+                <Container maxWidth="sm" >
+                    <Typography component="h2" variant="h2" align="center" gutterBottom style={{color: '#fff'}}>
                         Perfil Profesional
                     </Typography>
-                    <Typography variant="h6" align="center" color="textSecondary" paragraph>
+                    <Typography variant="h5" align="center" color="textSecondary" style={{color: '#fff'}} paragraph>
                         Me considero una persona seria, responsable con muchas ganas de aprender y adquirir experiencia laboral, con la capacidad de adaptarme a cualquier entorno, ademas de ser una persona practica que trata de encontrar siempre una solución simple a cualquier problema y con mucha curiosidad siempre de querer aprender algo nuevo. 
                     </Typography>
                 </Container>
@@ -224,7 +226,7 @@ const ProfileComponent: React.FC = () => {
                             <Grid container direction='column' spacing={4} alignItems='center'>
                                 <Grid item>
                                     <a 
-                                        href='./resume'
+                                        href='#'
                                         className={classes.anchorButton} 
                                         style={{backgroundColor: '#F2BF5E'}}
                                     >
