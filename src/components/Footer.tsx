@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
                 </a>
             </div>
             <Typography variant="subtitle1" align="center" color="textSecondary" component="p">
-                Something here to give the footer a purpose!
+                La tecnología es el futuro
             </Typography>
             <Copyright />
         </footer>

@@ -10,7 +10,7 @@ import {
 import Layout from './containers/Layout'
 import Home from './containers/Home'
 import Profile from './containers/Profile'
-import Resume from './containers/Resume'
+import Projects from './containers/Projects'
 
 function App() {
   return (
@@ -22,16 +22,15 @@ function App() {
             path='/'
             component={Home}
           />
-
-        <Route
+          <Route
             path='/profile'
             component={Profile}
           />
 
-        <Route
+          <Route
             exact
-            path='/resume'
-            component={Resume}
+            path='/projects'
+            component={Projects}
           />
         </Switch>
       </Layout>
